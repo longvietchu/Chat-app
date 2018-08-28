@@ -1,0 +1,35 @@
+body, html{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.display-msg{
+	border-bottom: 1px solid #c3c3c3;
+	padding: 10px;
+}
+
+#btn-edit, #btn-del{
+	display: none;
+}
+
+.display-msg:hover #btn-edit, .display-msg:hover #btn-del{
+	display: inline-block;
+}
+
+form.form-inline, p.msg{
+	display: inline-block;
+}
+
+.greeting {
+	text-align: center;
+}
+
+.display-msg .msg-option{
+	display: inline-block;
+	float: right;
+}
+
+.display-msg .msg-option a{
+	margin: 0 5px;
+}
